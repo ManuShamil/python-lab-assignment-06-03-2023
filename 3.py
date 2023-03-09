@@ -1,3 +1,19 @@
+# Question 3
+# A man engaged 'n' labourers to make ’t’ toys in ’d’ days. Assume that all men work with same speed and efficiency. 
+# After 'd1' days, he found that only 't1' toys were made. Design an algorithm and write a Python code to determine the number of additional men to be employed 
+# to complete the task in time. For example, if n is 10, t is 320, d is 5, d1 is 3, and t1 is 120 then the number of additional men to be employed is 12. 
+# Assume that the speed of making toys is uniform for all men.
+
+# Input Format:
+# Read the number of labourers engaged in work
+# Read the total number of toys to be made (t)
+# Read the total number of days allotted for completion (d)
+# Read the number of days work had been done (d1)
+# Read the number of toys made in d1 days (t1)
+
+# Output Format:
+# Number of more men required for completing the job in allotted period
+    
 import sys
 
 def additional_men(n_labourers, t_toys, d_days, after_d1_days, t1_toys_made):

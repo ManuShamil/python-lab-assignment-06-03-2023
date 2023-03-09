@@ -1,3 +1,7 @@
+# Question 4
+# Write a python program that prints Pascal’s triangle
+
+
 import sys
 
 class PascalsTriangle:

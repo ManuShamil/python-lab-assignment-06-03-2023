@@ -1,3 +1,17 @@
+# Question 2
+# Students in a class are appreciated based on the following factors
+# Number of 'S' grade >= 3
+# Attendance >= 90
+# Participation in sports activity in a semester >= 2
+# Appreciation is given as follows: 
+# (i) 'Excellent' if all three conditions are met 
+# (ii)'Very Good' if conditions (i) and (ii) are met 
+# (iii)'Good' if conditions (i) and (iii) are met 
+# Given the Number of 'S' grades, Attendance and Participation in sports activity in a semester, write the python code to output the appreciation for the student. 
+# Check boundary conditions and print 'Invalid input' for wrong input.
+# Boundary Condition:
+# All values of input >= 0
+
 import sys 
 
 class Appreciatation:

@@ -1,3 +1,30 @@
+# Question 1
+# A team of authorities designed by Govt. of India to conduct a survey on Colleges. Let us assume ‘n’ number of colleges. They were asked to rank the 
+# colleges based on 3 different parameters. The parameters are facilities, academics and infrastructure. Maximum score in each parameter is as follows.
+# Facilities=25
+# Academics=50
+# Infrastructure=25
+# At the end of the survey the scores of the individual parameters are added up to get the total score and the colleges are ranked based on the score. 
+# The college that scores the highest score is ranked first. Next highest score is given the rank second and so on. 
+# Write a program to read the scores of the three parameters for each college, store the scores in a list. Make a list of individual score list for ten colleges. 
+# Find the total score for all ten colleges, and sort them. Print the Total score in the sorted (Descending) order. You have to use any sorting method for sorting.
+# Input format:
+# Read the scores for facilities for College 1 
+# Read the scores for academics for College 1 
+# Read the scores for infrastructure for College 1 
+# Read the scores for facilities for College 2 
+# Read the scores for academics for College 2 
+# Read the scores for infrastructure for College 2 
+
+# --
+# ---
+# Read the scores for facilities for College 10 
+# Read the scores for academics for College 10 
+# Read the scores for infrastructure for College 10 
+
+# Output format:
+# Total score in the sorted order (Descending)
+
 import sys
 
 class College:
