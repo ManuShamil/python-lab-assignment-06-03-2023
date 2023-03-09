@@ -1,5 +1,21 @@
-2
-vm
-2 3 4
-Tdm
+10
+SRM
+19 32 23
+Mumbai University
 21 42 21
+IIT Madras
+23 40 19
+University of Delhi
+19 34 22
+BITS Pilani
+23 43 19
+Lovely Professional University
+14 40 22
+Jawaharlal Nehru University
+20 29 21
+Amity University
+14 35 18
+Indian Statistical Institute
+21 47 23
+VIT
+25 48 25

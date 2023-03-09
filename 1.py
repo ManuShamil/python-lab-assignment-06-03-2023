@@ -72,25 +72,28 @@ class Authority:
 
 
     # Use selection sort to sort the colleges by total score in descending order
-    def sort_colleges( self, colleges_list ):
-        for i in range(len(colleges_list)):
+    def sort_colleges( self ):
+        for i in range(len( self.colleges)):
             max_score_index = i
-            for j in range(i + 1, len(colleges_list)):
-                if colleges_list[j].total_score() > colleges_list[max_score_index].total_score():
+            for j in range(i + 1, len(self.colleges)):
+                if self.colleges[j].total_score() > self.colleges[max_score_index].total_score():
                     max_score_index = j
 
-        # Swap the colleges if necessary
-        if max_score_index != i:
-            colleges_list[i], colleges_list[max_score_index] = colleges_list[max_score_index], colleges_list[i]
+                    # swapping
+                    temp = self.colleges[i]
+                    self.colleges[i] = self.colleges[max_score_index]
+                    self.colleges[max_score_index] = temp
 
     # Print the sorted list of colleges
     def print( self ):
-        for i, college in enumerate( self.colleges ):
+
+        for i in range(len(self.colleges)):
+            college = self.colleges[i]
             print(f"{i + 1}. {college.name}: {college.total_score()}")
 
 
 if __name__ == '__main__':
     authority = Authority()
     authority.feed_input()
-    authority.sort_colleges(authority.colleges)
+    authority.sort_colleges()
     authority.print()
